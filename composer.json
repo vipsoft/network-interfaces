@@ -1,0 +1,25 @@
+{
+    "name": "vipsoft/network-interfaces",
+    "type": "library",
+    "description": "net_get_interfaces class wrapper",
+    "keywords": ["network", "interfaces", "net_get_interfaces", "ifconfig"],
+    "homepage": "http://github.com/vipsoft/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthon Pang",
+            "email": "apang@softwaredevelopment.ca",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": { "VIPSoft": "src/" }
+    }
+}
